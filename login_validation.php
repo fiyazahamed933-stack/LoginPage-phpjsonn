@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         
         }
         if(!$user_found){
-            $error = "Email not registered. Please register first.";
+            $error = "Email not registered. Please register first!.";
         }
     }   
 }

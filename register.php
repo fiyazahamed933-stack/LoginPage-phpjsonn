@@ -56,6 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             ];      
             file_put_contents(("user_data.json"),json_encode($users, JSON_PRETTY_PRINT));
              $success = " register !!";
+             header("Location: home.php");  
         }
         
     }
