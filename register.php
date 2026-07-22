@@ -19,10 +19,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($first_name)){
         $error = "enter the first name";
     }
-    if($last_name == ''){
+    elseif($last_name == ''){
         $error = " enter the last name";
     }
-    if($email == ""){
+    elseif($email == ""){
         $error = " enter the email";
     }
     elseif($password == ''){

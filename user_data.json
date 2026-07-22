@@ -1,26 +1,8 @@
 [
     {
-        "first_name": "fiyazahamed",
-        "last_name": "s",
-        "email": "fiyazahamed@244gmail.com",
-        "password": "$2y$10$WowcP5g1DwG.7GeUpK.MreO1wpi3Euh10QGvf3v\/rhRpAElTiwLOe"
-    },
-    {
-        "first_name": "kumar",
-        "last_name": "k",
-        "email": "kumar34@gmail.com",
-        "password": "$2y$10$9O4hS0ukFi0rxFn9lped3Oe\/G7l2xMznmeamFC96gsQFqneZcMy5i"
-    },
-    {
-        "first_name": "ajees",
-        "last_name": "ahamed",
-        "email": "ajees@34gmail.com",
-        "password": "$2y$10$JnOLewGE3ySYk2jF.G6oBu3dj8qntEXKsIHdqabvr4Uc0CPGi5XDW"
-    },
-    {
-        "first_name": "hari",
-        "last_name": "raj",
-        "email": "hariraj@gmail.com",
-        "password": "$2y$10$Qn\/FEvD5rXqE6RQWYkW1ie1OI1M9MekZYNJrAJDHqnnMjlzPz77z2"
+        "first_name": "john",
+        "last_name": "kumar",
+        "email": "john@Gmial.com",
+        "password": "$2y$10$XWa7hCw9ixbKLAlHL5MhregNo.B10BR7KbD8\/fYQo3p48SFwF3R\/i"
     }
 ]
