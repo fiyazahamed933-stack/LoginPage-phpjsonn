@@ -24,11 +24,11 @@
        <br>
        <br>
        <label for=""> Password  :</label> 
-       <input type="password" name="password" id="" placeholder = "enter the password ">
+       <input type="password" name="password" id="" placeholder = "enter the password "  pattern="[0-9]{8}"  title="Password must contain exactly 8 digits">
        <br>
        <br>
        <label for=""> Conform Password  :</label> 
-       <input type="password" name="cpassword" id="" placeholder = "enter the same  password ">
+       <input type="password" name="cpassword" id="" placeholder = "enter the same  password "  pattern="[0-9]{8}" title="Password must contain exactly 8 digits">
        <br>
        <br>
        <button type="submit"> Login</button>
