@@ -18,7 +18,7 @@ function setError(input,message)
                 a.text("").removeClass();
                 input.addClass("border border-danger").removeClass("border border-success");
                 $("button").addClass("btn-danger").removeClass("btn-primary");
-                $("#header").addClass("text-danger").removeClass("text-success");
+                $("#hearder").addClass("text-danger").removeClass("text-success");
                 $("#para").addClass("text-danger").removeClass("text-success");
 }   
 class Login {
