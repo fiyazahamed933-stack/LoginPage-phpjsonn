@@ -15,29 +15,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
     $cpassword = trim($_POST['cpassword']);
-
-    if(empty($first_name)){
-        $error = "enter the first name";
-    }
-    elseif($last_name == ''){
-        $error = " enter the last name";
-    }
-    elseif($email == ""){
-        $error = " enter the email";
-    }
-    elseif($password == ''){
-        $error = " enter the password";
-    }
-    elseif (!filter_var($email,FILTER_VALIDATE_EMAIL)){
-        $error = "enter the valid email";
-    }
-    elseif ($password != $cpassword  ){
-        $error = "enter the correct password";
-    }
-    else{
-        $password_hash = password_hash($password, PASSWORD_DEFAULT);
-        $users = json_decode(file_get_contents('user_data.json'),true)?? [];
-        $email_exists = false;
+    $password_hash = password_hash($password, PASSWORD_DEFAULT);
+    $users = json_decode(file_get_contents('user_data.json'),true)?? [];
+    $email_exists = false;
         foreach ($users as $user) {
             if($user['email'] == $email){
                 $email_exists = true;
@@ -45,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             }
         }
         if($email_exists){
-            $error = "email is already registered.";
+            $error = "Email is already registered.";
         }
         else{
             $users[] = [
@@ -56,11 +36,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             ];      
             file_put_contents(("user_data.json"),json_encode($users, JSON_PRETTY_PRINT));
              $success = " register !!";
-             header("Location: home.php");  
+             header("Location: home.php");
         }
         
     }
-}
+
 include 'index.php';
 
 ?>

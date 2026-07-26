@@ -1,8 +1,38 @@
 [
     {
-        "first_name": "john",
-        "last_name": "kumar",
-        "email": "john@Gmial.com",
-        "password": "$2y$10$XWa7hCw9ixbKLAlHL5MhregNo.B10BR7KbD8\/fYQo3p48SFwF3R\/i"
+        "first_name": "fiyaz",
+        "last_name": "w",
+        "email": "we@gmail.com",
+        "password": "$2y$10$f9Tt2cKqWcDr9KaiN\/Jjr.NZLr89Pmimf3ELTd\/3p.4dZ5uyiIOH6"
+    },
+    {
+        "first_name": "fiyaz",
+        "last_name": "ahamed",
+        "email": "45rt@gmail.com",
+        "password": "$2y$10$y1s9BxHYfeaCRav6x8EUde8Qu3re3PLUWbj2Hnd5idfb3cslFbSRy"
+    },
+    {
+        "first_name": "riyaz",
+        "last_name": "ahamed",
+        "email": "ryazW@Gmial.com",
+        "password": "$2y$10$Jwsfc038TKRbzV0qgg2ad.jdpUl5ht.z4BeIb1fY\/xo8NjcZjymqy"
+    },
+    {
+        "first_name": "ajees",
+        "last_name": "kummar",
+        "email": "ajees@gmail.com",
+        "password": "$2y$10$5FaDJqzxLAnedb\/zLa.5a.lSEXsOoFMz4itMBslCB9QBsMxGCfjv2"
+    },
+    {
+        "first_name": "fiyaz",
+        "last_name": "we",
+        "email": "kumar23@gmail.com",
+        "password": "$2y$10$jY.TMu7FubVW9o\/EvU5w..TknEIgoZjDJ8saLZK6SAp6y6.uNvxJq"
+    },
+    {
+        "first_name": "foyas",
+        "last_name": "ahamed",
+        "email": "foyaz@gmail.com",
+        "password": "$2y$10$p3y9asg.5FWtwlMLKeZVbOTGIPQt4HymXLHKZdiGiu2VUtdE8oDFa"
     }
 ]

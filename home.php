@@ -8,6 +8,7 @@
 
 </head>
 <body class = "p-3 mt-3 text-primary ">
-    <h4> Welcome.. !!</h4>
+    <center><h4> Welcome.. !!</h4></center>
+    
 </body>
 </html>

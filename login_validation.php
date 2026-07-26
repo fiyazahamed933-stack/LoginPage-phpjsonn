@@ -4,18 +4,7 @@ $error = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
      $email = trim($_POST['email']);
      $password = trim($_POST['password']);
-
-    if($email == ""){
-        $error = " enter the email";
-    }
-    elseif($password == ''){
-        $error = " enter the password";
-    }
-    elseif (!filter_var($email,FILTER_VALIDATE_EMAIL)){
-        $error = "enter the valid email";
-    }
-    else{
-        $users = json_decode(file_get_contents('user_data.json'),true)?? [];
+     $users = json_decode(file_get_contents('user_data.json'),true)?? [];
         $user_found = false;
         foreach ($users as $user) {
             if($user["email"] == $email){
@@ -36,6 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             $error = "Email not registered. Please register first!.";
         }
     }   
-}
+
 include 'login.php';
 ?>
